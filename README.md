@@ -1,9 +1,9 @@
 <div align="center">
 
-<!-- Баннер: assets/banner.svg (1200x300). Замените файл, чтобы поменять фон/цвета,
-     или удалите весь блок <div align="center"> ... </div> ниже, если баннер не нужен.
-     ВАЖНО: при смене картинки меняйте и ?v=N — иначе GitHub отдаёт старую версию из кэша. -->
-<img src="./assets/banner.svg?v=2" width="100%" alt="Mextrim — Rust server admin &amp; stream overlay engineering" />
+<!-- Баннер: assets/header.svg (1200x300). Поменяете картинку — залейте её под НОВЫМ именем
+     и поправьте ссылку: GitHub долго отдаёт по старому пути закэшированную версию файла.
+     Удалить весь блок <div align="center"> ... </div>, если баннер не нужен. -->
+<img src="./assets/header.svg" width="100%" alt="Mextrim — Rust server admin &amp; stream overlay engineering" />
 
 <br/>
 
