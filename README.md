@@ -45,89 +45,20 @@
 
 ## 🛠 What I build
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 Rust server ops
-
-- **Dedicated server setup** — launch scripts, `watchdog.ps1` auto-restart, one-command validate
-- **Carbon config suite** — 15 tuned configs (Admins, Backpacks, Kits, NTeleportation, FancyDrop, FurnaceSplitter, RemoverTool, …)
-- **Permissions & kits** — group-based permissions, kit data, no secrets in the repo
-- **`RLXMenu` plugin** — C# source for the server menu, documented in `docs/PLUGINS.md`
-
-</td>
-<td width="50%" valign="top">
-
-### 💬 Stream chat tooling
-
-- **Chat themes** — CSS/HTML templates with live-editable parameters (14 knobs: colors, fonts, row count, fade time, shadows)
-- **Chat-bot scripts** — C# autonomous scripts, hot-reloadable, no restart required
-- **Platform bridges** — pull chats from places RutonyChat doesn't support natively, without ever joining or posting
-- **OBS-ready output** — every theme exposes a browser-source link straight from the app
-
-</td>
-</tr>
-</table>
+| 🎮 **Rust server ops** | 💬 **Stream chat tooling** |
+|:---|:---|
+| **Dedicated server setup** — launch scripts, `watchdog.ps1` auto-restart, one-command validate<br>**Carbon config suite** — 15 tuned configs (Admins, Backpacks, Kits, NTeleportation, FancyDrop, FurnaceSplitter, RemoverTool, …)<br>**Permissions & kits** — group-based permissions, kit data, no secrets in the repo<br>**`RLXMenu` plugin** — C# source for the server menu, documented in `docs/PLUGINS.md` | **Chat themes** — CSS/HTML templates with live-editable parameters (14 knobs: colors, fonts, row count, fade time, shadows)<br>**Chat-bot scripts** — C# autonomous scripts, hot-reloadable, no restart required<br>**Platform bridges** — pull chats from places RutonyChat doesn't support natively, without ever joining or posting<br>**OBS-ready output** — every theme exposes a browser-source link straight from the app |
 
 ---
 
 ## 📦 Repositories
 
-<table>
-<tr>
-
-<td valign="top" width="33%">
-
-### <a href="https://github.com/Mextrim/RUST_SERVER">RUST_SERVER</a><br/>
-
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
-
-Rust dedicated server setup — launch scripts, Carbon configs, and menu plugin source.
-
-`watchdog.ps1` · `configs/carbon/` · `configs/permissions/` · `RLXMenu.cs`
-
-[Repo →](https://github.com/Mextrim/RUST_SERVER)
-
-</td>
-
-<td valign="top" width="33%">
-
-### <a href="https://github.com/Mextrim/rutonychat-minimal-chat">rutonychat-minimal-chat</a><br/>
-
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
-<img src="https://img.shields.io/badge/license-MIT-7CE7C4?style=flat-square" alt="MIT" />
-
-Minimal chat theme for RutonyChat — **no cards, no backgrounds, just text.**
-
-~25px per row instead of ~44px, fully transparent, so the game stays visible on stream.
-14 tunable parameters · 36 recognised platforms · official W.TV logo support.
-
-[Repo →](https://github.com/Mextrim/rutonychat-minimal-chat) ·
-[Workshop →](https://steamcommunity.com/sharedfiles/filedetails/?id=3821798934)
-
-</td>
-
-<td valign="top" width="33%">
-
-### <a href="https://github.com/Mextrim/rutonychat-wtv-script">rutonychat-wtv-script</a><br/>
-
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/license-MIT-7CE7C4?style=flat-square" alt="MIT" />
-
-Read-only W.TV chat bridge for RutonyChat, as an autonomous script.
-
-RutonyChat has no native W.TV support, so this pulls the public message list and injects every line into the chat window.
-
-[Repo →](https://github.com/Mextrim/rutonychat-wtv-script) ·
-[Workshop →](https://steamcommunity.com/sharedfiles/filedetails/?id=3821773297)
-
-</td>
-
-</tr>
-</table>
+| 🎮 <a href="https://github.com/Mextrim/RUST_SERVER">RUST_SERVER</a> | 💬 <a href="https://github.com/Mextrim/rutonychat-minimal-chat">rutonychat-minimal-chat</a> | 🌉 <a href="https://github.com/Mextrim/rutonychat-wtv-script">rutonychat-wtv-script</a> |
+|:---|:---|:---|
+| <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" /> | <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/license-MIT-7CE7C4?style=flat-square" alt="MIT" /> | <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/license-MIT-7CE7C4?style=flat-square" alt="MIT" /> |
+| Rust dedicated server setup — launch scripts, Carbon configs, and menu plugin source. | Minimal chat theme for RutonyChat — **no cards, no backgrounds, just text.** | Read-only W.TV chat bridge for RutonyChat, as an autonomous script. |
+| `watchdog.ps1`<br>`configs/carbon/`<br>`configs/permissions/`<br>`RLXMenu.cs` | ~25px per row instead of ~44px, fully transparent, so the game stays visible on stream.<br>14 tunable parameters · 36 recognised platforms | RutonyChat has no native W.TV support, so this pulls the public message list and injects every line into the chat window. |
+| **[Repo →](https://github.com/Mextrim/RUST_SERVER)** | **[Repo →](https://github.com/Mextrim/rutonychat-minimal-chat)** · [Workshop →](https://steamcommunity.com/sharedfiles/filedetails/?id=3821798934) | **[Repo →](https://github.com/Mextrim/rutonychat-wtv-script)** · [Workshop →](https://steamcommunity.com/sharedfiles/filedetails/?id=3821773297) |
 
 ---
 
