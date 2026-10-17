@@ -17,7 +17,8 @@
 <a href="https://github.com/Mextrim/RUST_SERVER/commits/main">
   <img src="https://img.shields.io/github/last-commit/Mextrim/RUST_SERVER?label=Last%20commit&color=FFD479&style=flat-square" alt="Last commit" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=Mextrim&label=Profile%20views&color=7FD3FF&style=flat-square" alt="Profile views" />
+<!-- Счётчик просмотров (komarev.com) убран: GitHub'овский camo-прокси не отдаёт его картинку,
+     и на профиле вместо бейджа показывается текст «Profile views». -->
 
 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3821798934">
   <img src="https://img.shields.io/badge/Steam%20Workshop-Minimal%20Chat-1b2838?style=flat-square&logo=steam&logoColor=66c0f4" alt="Minimal Chat on Steam Workshop" />
