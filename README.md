@@ -1,9 +1,10 @@
 <div align="center">
 
-<!-- Баннер: assets/header.svg (1200x300). Поменяете картинку — залейте её под НОВЫМ именем
-     и поправьте ссылку: GitHub долго отдаёт по старому пути закэшированную версию файла.
+<!-- Баннер: assets/hero.jpg (1200x300). Собран из скриншота Rust.
+     Чтобы заменить картинку, положите файл под НОВЫМ именем и поправьте ссылку:
+     GitHub долго отдаёт по старому пути закэшированную версию.
      Удалить весь блок <div align="center"> ... </div>, если баннер не нужен. -->
-<img src="./assets/header.svg" width="100%" alt="Mextrim — Rust server admin &amp; stream overlay engineering" />
+<img src="./assets/hero.jpg" width="100%" alt="Mextrim — Rust server admin &amp; stream overlay engineering" />
 
 <br/>
 
