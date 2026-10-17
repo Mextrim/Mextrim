@@ -48,7 +48,7 @@
 
 | 🎮 **Rust server ops** | 💬 **Stream chat tooling** |
 |:---|:---|
-| **Dedicated server setup** — launch scripts, `watchdog.ps1` auto-restart, one-command validate<br>**Carbon config suite** — 15 tuned configs (Admins, Backpacks, Kits, NTeleportation, FancyDrop, FurnaceSplitter, RemoverTool, …)<br>**Permissions & kits** — group-based permissions, kit data, no secrets in the repo<br>**`RLXMenu` plugin** — C# source for the server menu, documented in `docs/PLUGINS.md` | **Chat themes** — CSS/HTML templates with live-editable parameters (14 knobs: colors, fonts, row count, fade time, shadows)<br>**Chat-bot scripts** — C# autonomous scripts, hot-reloadable, no restart required<br>**Platform bridges** — pull chats from places RutonyChat doesn't support natively, without ever joining or posting<br>**OBS-ready output** — every theme exposes a browser-source link straight from the app |
+| **Dedicated server setup** — launch scripts, `watchdog.ps1` auto-restart, one-command validate<br>**Carbon config suite** — 14 tuned configs (Admins, Backpacks, Kits, NTeleportation, FancyDrop, FurnaceSplitter, RemoverTool, …)<br>**Permissions & kits** — group-based permissions, kit data, no secrets in the repo<br>**`RLXMenu` plugin** — C# source for the server menu, documented in `docs/PLUGINS.md` | **Chat themes** — CSS/HTML templates with live-editable parameters (14 knobs: colors, fonts, row count, fade time, shadows)<br>**Chat-bot scripts** — C# autonomous scripts, hot-reloadable, no restart required<br>**Platform bridges** — pull chats from places RutonyChat doesn't support natively, without ever joining or posting<br>**OBS-ready output** — every theme exposes a browser-source link straight from the app |
 
 ---
 
