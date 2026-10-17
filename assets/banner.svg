@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Mextrim">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="55%" stop-color="#0c1622"/>
+      <stop offset="100%" stop-color="#102436"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7FD3FF"/>
+      <stop offset="100%" stop-color="#7CE7C4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.80" cy="0.30" r="0.62">
+      <stop offset="0%" stop-color="#7FD3FF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#7FD3FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.12" cy="0.92" r="0.55">
+      <stop offset="0%" stop-color="#7CE7C4" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#7CE7C4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#7FD3FF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <rect width="1200" height="300" fill="url(#glow2)"/>
+
+  <!-- thin frame -->
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#7FD3FF" stroke-opacity="0.14"/>
+
+  <!-- left accent bar -->
+  <rect x="70" y="176" width="132" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- wordmark -->
+  <text x="70" y="146"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="64" font-weight="700" letter-spacing="9"
+        fill="url(#accent)">MEXTRIM</text>
+
+  <!-- subtitle -->
+  <text x="73" y="216"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="19" font-weight="400" letter-spacing="2.4"
+        fill="#9fb3c8">Rust server admin  ·  Stream chat &amp; overlay engineering</text>
+
+  <!-- right side chips -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.6">
+    <rect x="905" y="86"  width="150" height="30" rx="15" fill="#7FD3FF" fill-opacity="0.10" stroke="#7FD3FF" stroke-opacity="0.35"/>
+    <text x="980" y="106" text-anchor="middle" fill="#7FD3FF">CARBON</text>
+
+    <rect x="905" y="124" width="150" height="30" rx="15" fill="#7CE7C4" fill-opacity="0.10" stroke="#7CE7C4" stroke-opacity="0.35"/>
+    <text x="980" y="144" text-anchor="middle" fill="#7CE7C4">RUTONYCHAT</text>
+
+    <rect x="905" y="162" width="150" height="30" rx="15" fill="#FFD479" fill-opacity="0.10" stroke="#FFD479" stroke-opacity="0.35"/>
+    <text x="980" y="182" text-anchor="middle" fill="#FFD479">OBS STUDIO</text>
+  </g>
+
+  <!-- bottom rule -->
+  <rect x="70" y="262" width="1060" height="1" fill="#7FD3FF" fill-opacity="0.16"/>
+  <text x="70" y="284"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="12" letter-spacing="2"
+        fill="#5d7387">github.com/Mextrim</text>
+  <text x="1130" y="284" text-anchor="end"
+        font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="12" letter-spacing="2"
+        fill="#5d7387">Парабель, snow biome</text>
+</svg>
